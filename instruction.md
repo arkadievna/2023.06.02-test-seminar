@@ -4,6 +4,10 @@
 
 > *git status* - получить информацию
 
+> *git config --global user.name "ваше_имя"* - установка имени пользователя
+
+> *git config --global user.email "ваша_почта@gmail.com"*
+
 > *git add* - добавить файл или файлы к следующему коммиту
 
 > *git commit -m "message"* - создание коммита
