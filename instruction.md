@@ -66,3 +66,9 @@
 
 
 # Основные команды 2-го семинара
+
+# Основные команды 3-го семинара
+
+> git remote add origin https://github.com/arkadievna/+название нового удалённого репозитория
+
+> git remote show origin
