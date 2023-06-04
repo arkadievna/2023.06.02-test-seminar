@@ -96,3 +96,21 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Не особо удобно... Нужно сравнивать каждый символ в большом тексте, чтобы найти букву, которую я изменила. 
 > ПОИСКАТЬ: есть ли команды показывающие конкретное место, где были изменения.
+
+# команда git checkout
+к команде добавила №коммита
+> Ответ: error: pathspec 'checkout' did not match any file(s) known to git
+error: pathspec '7ddd1d7702501b1fa6a98e24b622133439f60b18' did not match any file(s) known to git
+PS D:\Юлия\1 четверть\Контроль версий\ДЗ практика VSCode> git checkout 7ddd1d7702501b1fa6a98e24b622133439f60b18
+error: Your local changes to the following files would be overwritten by checkout:
+        instruction.md
+        test/experiments.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+Эта ошибка возникает, потому что в рабочем дереве есть несохраненные изменения в файлах, которые я пытаюсь изменить на определенный коммит. Git не хочет перезаписывать эти изменения, поэтому он выдает ошибку.
+
+В этом случае необходимо либо сохранить изменения, либо отменить их. Отменить изменения можно командой `git stash`, которая занесет изменения в отдельное хранилище, а затем вы сможете выполнить команду `git checkout`. Чтобы вернуть изменения обратно в рабочую директорию, можно воспользоваться командой `git stash apply`.
+
+Если вы хотите сохранить изменения в git, выполните команду `git add` и `git commit` для создания нового коммита.
+
