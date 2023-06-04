@@ -17,6 +17,8 @@
 > *git config --global user.name "ваше_имя"* - установка имени пользователя
  
 > *git config --global user.email "ваша_почта@gmail.com"*
+
+> *git config --global user.name* и *git config --global user.email* писать без имени и почты для проверки имени и почты
  
 > *git add* - добавить файл или файлы к следующему коммиту (добавляет указанные файлы в индекс)
  
