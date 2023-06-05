@@ -80,6 +80,10 @@ Git не сможет сохранить файл без обычного сох
 > *git log --graph* - увидеть log коммитов с визуализацией веток между ними (вывод на экран истории всех коммитов с их хеш-кодами в древовидной форме)
  
 ![Иллюстрация к проекту](https://thumb.tildacdn.com/tild3063-3065-4466-a137-663362623733/-/resize/768x/-/format/webp/Git_config.png)
+
+> git remote add origin https://github.com/arkadievna/+название нового удалённого репозитория
+ 
+> git remote show origin
  
 # Синтаксис языка Markdown
  
@@ -106,10 +110,6 @@ Git не сможет сохранить файл без обычного сох
  
 2 Например
  
-3 Напримпер
- 
-> git remote add origin https://github.com/arkadievna/+название нового удалённого репозитория
- 
-> git remote show origin
+3 Например
  
  
